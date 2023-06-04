@@ -8,7 +8,7 @@ body {
     height: 100vh;
     box-sizing: border-box;
     gap: 16px;
-    /* background-color: rgba(0, 0, 0, 0.877); */
+    background-color: rgba(202, 192, 192, 0.877);
 }
 
 .container {
@@ -21,21 +21,63 @@ body {
     gap: 0;
     margin: 0;
     padding: 0;
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
     box-sizing: border-box;
-    border: 1 solid black;
+    /* border: 1em outset rgb(13, 2, 105); */
+    border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.188);
 
 } 
 
 .cell {
     /* border: 1px solid rgba(221, 212, 212, 0.993); */
-    flex: 1 1 auto;
-    aspect-ratio: 1/1;
+    flex: auto;
+    aspect-ratio: 1 / 1;
     /* box-sizing: border-box; */
+}
+
+.cell div:hover {
+    background-color: black;
 }
 
 .cell-hover {
     background-color: black;
+}
+
+h1 {
+    margin-top: 1em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    gap: 2em;
+}
+
+button {
+    flex: 1 1 auto;
+    margin: 4px;
+    padding: 8px 12px;
+    width: 10em;
+    height: 2em;
+    border-radius: 5px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8em;
+}
+
+.etch-a-sketch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
