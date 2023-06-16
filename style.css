@@ -21,8 +21,8 @@ body {
     gap: 0;
     margin: 0;
     padding: 0;
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 600px;
     background-color: #ffffff;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.188);
@@ -67,17 +67,17 @@ button {
 
 .main-container {
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 8em;
+    gap: 2em;
 }
 
 .etch-a-sketch {
     display: flex;
-    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-right: 4em;
+    gap: 4em;
 }
 
 footer {
